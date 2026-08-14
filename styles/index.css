@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 30px;
+    margin-right:auto;
+}
+.header > h2 {
+    padding-bottom: 5px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+}
+#box {
+    display:flex;
+    align-items: center;
+    background-color: #F3E0C8;
+    width: 100%;
+    height:70px;
+    position: fixed;
+}
+#input1 {
+    border-radius: 10px;
+    width: 150px;
+}
+.nav {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > a {
+    color: black;
+}
+.search {
+    margin-left: auto;
+    margin-right: 30px;
+}
+.hero {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/Cozy\ Neutral\ Craft\ Workspace\ _\ Minimal\ Flat\ Lay\ Inspiration.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero > h1 {
+    color: #4A3636;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.hero > p {
+    color: #4A3636;
+    text-align: center;
+    font-size:x-large;
+    font-weight: 500;
+}
+.hero > a > button {
+    background-image: linear-gradient(180deg, beige, #4A3636);
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.girl {
+    width: 450px;
+    height: 450px;
+}
+#me {
+    display: flex;
+    margin: 60px;
+    border: none;
+    padding: 80px;
+    background-color: white;
+    gap: 50px;
+}
+.about {
+    width:60%;
+    margin-top: 100px;
+    background-color: white;
+}
+.about > h1 {
+    background-color: white;
+}
+.about > p{
+    background-color: white;
+}
+.about button {
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #FFF8F0, #E8D5C4);
+    padding: 13px;
+    cursor: pointer;
+}
+#table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#table > h2 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+table[border="1px"] {
+    color: #402626;
+}
+tr:nth-child(even) {
+    background-color: #FFF8F0;
+}
+tr:nth-child(odd) {
+    background-color: #F3E0C8;
+}
+.lis {
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.title {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+#list {
+    border: none;
+    margin: 100px;
+    padding: 100px;
+    background-image: radial-gradient( white, #D8B08C);
+}
