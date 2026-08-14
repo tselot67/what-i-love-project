@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 30px;
+    margin-right:auto;
+}
+.header > h2 {
+    padding-bottom: 5px;
+}
+#box {
+    display:flex;
+    align-items: center;
+    background-color: #F3E0C8;
+    width: 100%;
+    height:70px;
+    position: fixed;
+}
+#input1 {
+    border-radius: 10px;
+    width: 150px;
+
+}
+.nav {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > a {
+    color: black;
+}
+.search {
+    margin-left: auto;
+    margin-right: 30px;
+}
+#first {
+    display: flex;
+    width: 100%;
+    height: 570px;
+    background-image: url('../Images/Free\ Crochet\ Patterns\ &\ Tutorials\ -\ KnotToYarn.jpg');
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+#first > h1 {
+    color:#4A3636;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#collection{
+    display: grid;
+    border: none;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(3, 200px);
+    margin: 30px;
+    margin-top: 100px;
+    padding: 50px;
+    gap:20px;
+    background-color: #F3E0C8;
+    margin-left: 50px;
+}
+.gallery {
+    border: 2px solid #4A3636;
+}
+#item2 {
+    grid-row: span 2;
+}
+#item5 {
+    grid-row: span 2;
+}
+#item7 {
+    grid-row: span 2;
+}
+#item8 {
+    height: 150px;
+}
+
+#item1 > img {
+    width: 100%;
+    height: 196px;
+    object-fit: cover;
+    display: block;
+}
+#item6 > img {
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    display: block;
+}
+#item5 > img {
+    width: 100%;
+    height: 417px;
+    object-fit: cover;
+    display: block;
+}
+#item2 > img {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    display: block;
+}
+#item3 > img {
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    display: block;
+}
+#item7 > img {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    display: block;
+}
+#item4 > img {
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    display: block;
+}
+#item9 > img {
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    display: block;
+}
+#item8 > img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    display: block;
+}
