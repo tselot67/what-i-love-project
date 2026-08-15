@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    background-color: #FFF8F0;
+}
 #container {
     display: flex;
     flex-direction: column;
@@ -46,7 +49,7 @@
 #first {
     display: flex;
     width: 100%;
-    height: 570px;
+    height: 550px;
     background-image: url('../Images/Free\ Crochet\ Patterns\ &\ Tutorials\ -\ KnotToYarn.jpg');
     flex-direction: column;
     background-repeat: no-repeat;
@@ -68,7 +71,6 @@
     margin-top: 100px;
     padding: 50px;
     gap:20px;
-    background-color: #F3E0C8;
     margin-left: 50px;
 }
 .gallery {
