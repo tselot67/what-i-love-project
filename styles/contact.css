@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #FFF8F0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 30px;
+    margin-right:auto;
+}
+.header > h2 {
+    padding-bottom: 5px;
+}
+#box {
+    display:flex;
+    align-items: center;
+    background-color: #F3E0C8;
+    width: 100%;
+    height:70px;
+    /*position: fixed;*/
+}
+#input1 {
+    border-radius: 10px;
+    width: 150px;
+}
+.nav {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > a {
+    color: black;
+}
+.search {
+    margin-left: auto;
+    margin-right: 30px;
+}
+#contact {
+    width: 90%;
+    max-width: 1100px;
+    margin: 80px auto;
+    height: 650px;
+    display: flex;
+    background-color: white;
+    gap: 50px;
+}
+.contact-image {
+    width: 50%;
+}
+.contact-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.contact-form {
+    margin-top: 70px;
+}
+.name-phone {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+#em {
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #d8b9a5;
+    background-color: #FFF8F0;
+    margin-bottom: 5px;
+}
+textarea {
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #d8b9a5;
+    resize: none;
+    padding-top: 10px;
+    background-color: #FFF8F0;
+}
+#text {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid #d8b9a5;
+    background-color: #FFF8F0;
+}
+#tel {
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid #d8b9a5;
+    background-color: #FFF8F0;
+}
+#button {
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #d8b9a5;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #d8b9a5;
+}
+#div1 {
+    display: flex;
+    gap: 45px;
+}
+#div2 {
+    display: flex;
+    gap: 40px;
+}
+#love {
+    margin-bottom: 10px;
+}
+#te {
+    width: 30px;
+    height: 30px;
+}
+#telegram {
+    width: 30px;
+    height: 30px;
+}
+#instagram {
+    width: 35px;
+    height: 35px;
+}
+#contact-us > div > h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#us {
+    display: flex;
+    justify-content: space-around;
+}
+.info {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #4A3636;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F3E0C8;
+}
+.info:hover {
+    transform: scale(1.19);
+    transition: transform 0.3s ease;
+}
