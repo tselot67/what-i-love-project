@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kavoon&display=swap');
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -15,6 +17,8 @@ body {
 }
 .header > h2 {
     padding-bottom: 5px;
+    font-family: "Berkshire Swash", 'Times New Roman', Times, serif;
+    color: #402626;
 }
 #container {
     display: flex;
@@ -199,6 +203,7 @@ body {
     color: #4A3636;
     text-decoration: none;
     position: relative;
+    font-family: "Kavoon", 'Courier New', Courier, monospace;
 }
 .footer-link > a:not(:last-child)::after{
     content: "|";
