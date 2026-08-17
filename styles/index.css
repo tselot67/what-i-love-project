@@ -223,3 +223,32 @@ footer::before {
         0 100%
     );
 }
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+    .search {
+        display: none;
+    }
+
+    .header h2 {
+        font-size: 22px;
+    }
+
+    .nav a {
+        font-size: 15px;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+    .nav {
+        display: none;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+}       
