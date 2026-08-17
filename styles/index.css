@@ -46,6 +46,11 @@ body {
 .search {
     margin-left: auto;
     margin-right: 30px;
+    display: flex;
+    gap: 20px;
+}
+.search > input {
+    border: none;
 }
 .hero {
     width: 100%;
