@@ -39,8 +39,10 @@ body {
     align-items: center;
 }
 .nav > a {
-    color: black;
+    color: #402626;
+    text-decoration: none;
 }
+
 .search {
     margin-left: auto;
     margin-right: 30px;
@@ -110,6 +112,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 #table > h2 {
     text-align: center;
@@ -131,22 +134,81 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #F3E0C8;
 }
-.lis {
+.footer-link {
     display:flex;
-    margin-top: 20px;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
-.title {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
+.footer-link > a {
+    color: #4A3636;
+    text-decoration: none;
+    position: relative;
 }
-#list {
-    border: none;
-    margin: 150px;
-    padding: 100px;
-    background-image: radial-gradient( white, #D8B08C);
+.footer-link > a:not(:last-child)::after{
+    content: "|";
+    position: absolute;
+    right: -10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #E8D5C4;
+    margin-top: 80px;
+    padding: 70px 20px 50px;
+    position: relative;
+}
+footer > div > p {
+    text-align: center;
+    color: #4A3636;
+}
+.footer-im {
+    width: 25px;
+    height: 25px;
+}
+#footer-img {
+    display: flex;
+    gap: 10px;
+}
+#footer-head > img {
+    width: 50px;
+    height: 50px;
+}
+footer > div > h1 {
+    text-align: center;
+    color: #402626;
+}
+#last {
+    color: #4A3636;
+}
+#footer-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer::before {
+    position: absolute;
+    content: "";
+    top: -25px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #E8D5C4;
+    clip-path: polygon(
+        0 40%,
+        10% 20%,
+        20% 40%,
+        30% 20%,
+        40% 40%,
+        50% 20%,
+        60% 40%,
+        70% 20%,
+        80% 40%,
+        90% 20%,
+        100% 40%,
+        100% 100%,
+        0 100%
+    );
 }
