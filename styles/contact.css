@@ -96,6 +96,13 @@ form {
     background-color: #FFF8F0;
     margin-bottom: 5px;
 }
+textarea:hover {
+    border-color: #B88A72;
+}
+textarea:focus {
+    border-color: #6B4A3A;
+    background-color: #d8b9a5;
+}
 textarea {
     height: 100px;
     border-radius: 20px;
@@ -170,6 +177,19 @@ textarea {
     transform: scale(1.19);
     transition: transform 0.3s ease;
 }
+.info > div > p > a {
+    color: brown;
+    text-decoration: none;
+} 
+.info > div > p > a:visited {
+    color: red;
+}
+.info > div > p > a:hover {
+    color: blue;
+} 
+.info > div > p > a:active {
+    color: purple;
+} 
 .footer-link {
     display:flex;
     gap: 20px;
